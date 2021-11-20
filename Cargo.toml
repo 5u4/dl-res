@@ -1,0 +1,20 @@
+[package]
+name = "dl-res"
+version = "0.1.0"
+authors = ["Senhung <alexwongsenhung@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+reqwest = "0.11"
+anyhow = "1"
+log = "0.4"
+futures = "0.3"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+url = "2.2"
+structopt="0.3"
+indicatif = "0.16"
+derive-new = "0.5"
