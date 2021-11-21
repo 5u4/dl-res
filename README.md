@@ -11,3 +11,18 @@
 # dev run
 cargo run -- -i "../../urls.txt" -o "../../out" -n 1
 ```
+
+---
+
+```bash
+python --version
+# Python 3.10.0
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python main.py
+```
